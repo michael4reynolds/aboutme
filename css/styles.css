@@ -59,8 +59,8 @@ ul, ol {
 }
 
 .projects {
-    background-color: #4C4A4A;
-    padding: 30px 0;
+    background-color: #4C596D;
+    padding: 4em 0;
 }
 
 .projects p {
@@ -89,6 +89,27 @@ a:link, a:visited {
 
 a:hover, a:active {
     color: #EDBD6B;
+}
+
+footer {
+    background-color: rgb(74, 74, 77);
+    padding: 2em;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer .icon {
+    border: 1px solid #eaebec;
+    border-radius: 3rem;
+    padding: 1rem 0;
+    width: 5.6rem;
+    margin: 1.25rem 5px;
+}
+
+footer .icon-tall {
+    padding: .75rem;
 }
 
 @media screen and (min-width: 650px) {
