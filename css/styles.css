@@ -7,10 +7,10 @@ html {
 }
 
 .hero {
-    height: 72em;
+    height: auto;
     width: 100%;
     background-color: #4A4A4D;
-    padding-top: 175px;
+    padding: 100px 0 1em;
     font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -20,7 +20,7 @@ html {
 }
 
 .iam {
-    height: 150px;
+    height: auto;
     width: 80%;
     color: #879EC4;
     font-size: 4em;
@@ -39,7 +39,15 @@ html {
     width: 100px;
     height: 100px;
     float: right;
-    margin-top: -150px;
+    margin-top: -70px;
     background-image: url('../images/arrowDownB.png');
     background-repeat: no-repeat;
+}
+
+.overview {
+    color: #EBE8D9;
+    font-family: Archivo, sans-serif;
+    font-size: 2em;
+    margin: 0 auto;
+    width: 19em;
 }
