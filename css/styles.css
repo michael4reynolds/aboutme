@@ -38,17 +38,11 @@ ul, ol {
     margin: 0 auto;
 }
 
-.logo {
-    /*width: 443px;*/
-    /*height: 468px;*/
-    /*margin: 0 auto;*/
-}
-
 .menu {
     width: 100px;
     height: 100px;
     float: right;
-    margin-top: -70px;
+    margin-top: -100px;
     background-image: url('../images/arrowDownB.png');
     background-repeat: no-repeat;
 }
@@ -59,6 +53,8 @@ ul, ol {
     font-size: 2em;
     margin: 0 auto;
     width: 90%;
+    text-align: justify;
+    font-weight: 400;
 }
 
 .projects {
@@ -125,8 +121,36 @@ footer .icon-tall {
 }
 
 @media screen and (max-width: 500px) {
+    .iam {
+        font-size: 2.25em;
+    }
+
     .iam img {
         width: 75%;
         height: auto;
+    }
+
+    .overview {
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
+    .icon img {
+        width: 75%;
+        height: 75%;
+    }
+
+    footer {
+        padding: 2rem 0;
+    }
+
+    footer .icon {
+        border: none;
+        width: 4rem;
+        margin: 1em;
+    }
+
+    footer .icon-tall {
+        padding: .3725rem;
     }
 }
