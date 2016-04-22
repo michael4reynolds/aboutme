@@ -32,13 +32,16 @@ ul, ol {
     font-size: 4em;
 }
 
-.logo {
-    width: 443px;
-    height: 468px;
+.iam img {
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
-    background-image: url('../images/connectdevelop@2x.png');
-    background-size: cover;
-    background-color: transparent;
+}
+
+.logo {
+    /*width: 443px;*/
+    /*height: 468px;*/
+    /*margin: 0 auto;*/
 }
 
 .menu {
@@ -55,8 +58,7 @@ ul, ol {
     font-family: Archivo, sans-serif;
     font-size: 2em;
     margin: 0 auto;
-    width: 19em;
-    font-weight: 400;
+    width: 90%;
 }
 
 .projects {
@@ -123,7 +125,8 @@ footer .icon-tall {
 }
 
 @media screen and (max-width: 500px) {
-    .projects ul {
-        max-width: 400px;
+    .iam img {
+        width: 75%;
+        height: auto;
     }
 }
