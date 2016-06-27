@@ -1,41 +1,16 @@
-html {
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-ul, ol {
-    list-style: none;
-    padding: 0;
-}
-
-.hero {
-    height: auto;
-    width: 100%;
-    background-color: #4A4A4D;
-    padding: 100px 0 1em;
-    font-family: 'Julius Sans One', sans-serif;
-    font-weight: 700;
-}
-
 .content {
     margin: 0 auto;
     text-align: center;
 }
 
 .iam {
-    height: auto;
-    width: 80%;
     color: #879EC4;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .iam img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
+  margin-bottom: .5em;
+    max-width: 30%;
 }
 
 .menu {
@@ -46,6 +21,11 @@ ul, ol {
     background-image: url('../images/arrowDownB.png');
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.jumbotron {
+  font-family: 'Julius Sans One', sans-serif;
+  background-color: #4A4A4D;
 }
 
 .overview {
