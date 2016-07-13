@@ -1,0 +1,39 @@
+header {
+  max-width: 1280px; }
+
+.sm-header {
+  background: url("../images/headshot-dn2.png") bottom left no-repeat, url("../images/black-mamba.png") bottom center;
+  background-size: 23rem;
+  height: 20rem; }
+
+.lg-header {
+  background: url("../images/headshot-dn2.png") bottom center no-repeat, url("../images/black-mamba.png") bottom center;
+  background-size: 30rem;
+  height: 25rem; }
+
+.hdname-con {
+  position: relative; }
+  .hdname-con h1 {
+    position: absolute;
+    width: 37rem;
+    right: .5rem;
+    margin: 0;
+    font-weight: 300; }
+    @media (max-width: 850px) {
+      .hdname-con h1 {
+        width: 20rem; } }
+  .hdname-con h4:first-of-type {
+    margin-top: 3em; }
+    @media (max-width: 850px) {
+      .hdname-con h4:first-of-type {
+        margin-top: 1em; } }
+  .hdname-con h4:last-of-type {
+    margin-top: 3em; }
+    @media (max-width: 850px) {
+      .hdname-con h4:last-of-type {
+        margin-top: 4.5em; } }
+
+.hdname {
+  height: 25rem; }
+  .hdname .row {
+    width: 100%; }
