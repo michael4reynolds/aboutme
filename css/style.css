@@ -58,6 +58,8 @@ header {
     margin-right: auto; }
   .contact-links a {
     padding: 10px; }
+  .contact-links i {
+    font-size: 6em; }
 
 footer h3 {
   font-weight: 300; }
