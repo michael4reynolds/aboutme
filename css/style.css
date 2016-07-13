@@ -37,3 +37,13 @@ header {
   height: 25rem; }
   .hdname .row {
     width: 100%; }
+
+.no-padding {
+  padding: 0; }
+
+.no-margin {
+  margin: 0; }
+
+.intro {
+  font-size: 1.2em;
+  line-height: 1.3em; }
