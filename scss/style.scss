@@ -65,3 +65,28 @@ header {
   font-size: 1.2em;
   line-height: 1.3em;
 }
+
+.main {
+  h2 {
+    font-weight: 300;
+    padding: 10px 0;
+  }
+}
+
+.contact-links {
+  display: flex;
+
+  li:nth-child(1) {
+    margin-right: auto;
+  }
+  a{
+    padding: 10px;
+  }
+}
+
+footer {
+  h3 {
+    font-weight: 300;
+  }
+}
+
