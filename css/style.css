@@ -46,18 +46,20 @@ header {
   font-size: 1.2em;
   line-height: 1.3em; }
 
-.main h2 {
+.main h2, .intro h2 {
   font-weight: 300;
   padding: 10px 0; }
 
 .contact-links {
-  display: flex; }
+  display: flex;
+  justify-content: center; }
   .contact-links li:nth-child(1) {
-    margin-right: auto; }
+    margin-right: 10%; }
   .contact-links a {
     padding: 10px; }
-  .contact-links i {
-    font-size: 6em; }
 
 footer h3 {
   font-weight: 300; }
+
+footer i {
+  font-size: 3em !important; }

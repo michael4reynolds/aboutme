@@ -63,7 +63,7 @@ header {
   line-height: 1.3em;
 }
 
-.main {
+.main, .intro {
   h2 {
     font-weight: 300;
     padding: 10px 0;
@@ -72,21 +72,23 @@ header {
 
 .contact-links {
   display: flex;
+  justify-content: center;
 
   li:nth-child(1) {
-    margin-right: auto;
+    margin-right: 10%;
   }
   a{
     padding: 10px;
   }
-  i {
-    font-size: 6em;
-  }
+
 }
 
 footer {
   h3 {
     font-weight: 300;
+  }
+  i {
+    font-size: 3em !important;
   }
 }
 
