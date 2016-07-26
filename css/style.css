@@ -2,7 +2,7 @@ header {
   max-width: 1280px; }
 
 .sm-header {
-  background: url("../images/headshot-dn2.png") bottom left no-repeat, url("../images/black-mamba.png") bottom center;
+  background: url("../images/headshot-ps.png") top -60% left 15% no-repeat, url("../images/black-mamba.png") bottom center;
   background-size: 23rem;
   height: 20rem; }
 
